@@ -31,7 +31,9 @@ body {
 
 h1 {
   background-color: rgb(72, 105, 214);
-  margin: 3px;
+  margin: 10px;
+  padding-left: 15px;
+
   font-size: 4rem;
 }
 
