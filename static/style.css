@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(225, 225, 238);
+  font-family: "Lobster", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#main-form {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(235, 167, 65);
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 35px;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 13px;
+  background-color: rgb(209, 210, 223);
+}
+
+h1 {
+  background-color: rgb(72, 105, 214);
+  margin: 3px;
+  font-size: 4rem;
+}
+
+.btn-delete {
+  background-color: #413c8adc;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
